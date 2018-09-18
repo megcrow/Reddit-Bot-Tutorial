@@ -16,7 +16,7 @@ To run, install praw first:
 $ pip install praw
 ```
 
-Create a reddit bot and add the bot's client_id, client_secret, username, and password to praw.ini, which are currently left blank for security reasons.
+Create a reddit bot and add the bot's client_id, client_secret, username, password, and user_agent to praw.ini, which are currently left blank for security reasons.
 
 Then, run bot_read.py, which demonstrates the first part of the tutorial, to view the five latest submissions in the user's choice of subreddit and filter of . The program will prompt the user to provide the name of the subreddit and the filter (hot, new, controversial, top) :
 
